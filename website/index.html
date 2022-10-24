@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ============ Meta Data ============  -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-language" content="en">
+    <meta name="keywords" content="tasks, to-do, list, manager">
+    <meta name="author" content="Nader Sayed">
+    <meta name="publisher" content="Nader Sayed">
+    <meta name="copyright" content="Nader Sayed">
+    <meta name="description" content="You Can add Modifiy and manage your tasks easliy just join us!">
+    <meta name="page-topic" content="Media">
+    <meta name="page-type" content="Blogging">
+    <meta name="audience" content="Everyone">
+    <meta name="robots" content="index, follow">
+    <!-- ============ Fonts ============  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=The+Nautigal:wght@400;700&display=swap" rel="stylesheet">
+    <!-- ============ styling Vendors ============  -->
+    <link rel="stylesheet" href="assets/vendor/fontawesome/all.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.css">
+    <!-- ============ Main Styling ============  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- ============ Icon ============  -->
+    <link rel="shortcut icon" href="assets/images/icon.png" type="image/x-icon">
+    <title>Task Manger</title>
+</head>
+
+<body>
+    <span>i</span>
+    <div class="container">
+        <form class="form">
+            <label for="title">Task Title</label>
+            <input name='title' type="text" id="title" class="rounded-2">
+            <label for="assignedTo">Assigned To</label>
+            <input name='assignedTo' type="text" id="assigned-to" class="rounded-2">
+            <input type="submit" value="Add Task" class="add btn btn-success">
+        </form>
+        <div class="actions d-flex align-items-center justify-content-evenly">
+            <div id="counter"></div>
+            <div id="doneCounter" class="d-flex align-items-center justify-content-evenly">
+                <div class="d-flex">
+                    <p class="m-0">Done Tasks:</p>
+                    <span class="text-success dtCounter mx-1"> </span>
+                </div>
+                <div>
+                    <span class="btn btn-danger px-2 pt-0 pb-0" id="clearDone" title="Clear Tasks">
+                        <i class="fas fa-times"></i>
+                    </span>
+                    <span class="btn btn-dark px-2 pt-0 pb-0" id="resetDoneCounter" title="Reset Counter">
+                        <i class="fas fa-reply"></i>
+                    </span>
+                </div>
+            </div>
+            <div id="others" class="d-flex align-items-center justify-content-evenly">
+                <form id="backUpForm">
+                    <input type="hidden" name="backUp" id="backUp">
+                    <button type="submit" class="backupSubmit">
+                        <i class="fas fa-database btn btn-success" title="BackUp JSON"></i>
+                    </button>
+                </form>
+                <span id="clearTasks">
+                    <i class="fas fa-trash-alt btn btn-danger" title="Delete Tasks"></i>
+                </span>
+                <span id="restoreDeleted">
+                    <i class="fas fa-reply-all btn btn-warning" title="Restore Tasks"></i>
+                </span>
+                <span id="factoryReset">
+                    <i class="fas fa-broadcast-tower btn btn-primary" title="Factory Reset"></i>
+                </span>
+                <span id="RestorEndPoint">
+                    <i class="fas fa-trash-restore btn btn-dark" title="Restore End Point"></i>
+                </span>
+            </div>
+        </div>
+        <div id="tasks-List">
+
+        </div>
+    </div>
+    <span class="infoBtn" id="infoBtn">
+        <i class="fas fa-info-circle btn btn-warning text-primary"></i>
+    </span>
+    <div class="modalHidden" id="modalBody">
+        <!-- <div class="" id="modalBody"> -->
+        <div class="" id="modal">
+            <div class="nameHeader">
+                <img src="assets/images/icon.png" alt="icon">
+                <img src="assets/images/todo.gif" alt="name">
+            </div>
+            <img src="assets/images/pen.png" alt="pen">
+            <span class="hole"></span>
+            <span class="btn btn-danger px-2 pt-0 pb-0" id="modalClose">
+                <i class="fas fa-times"></i>
+            </span>
+            <div class="contents" id="contents">
+                <ul class="featursList">
+                    <p>Features:</p>
+                    <li> <i class="fas fa-check-circle"></i>
+                        Add tasks and store it locally.</li>
+                    <li> <i class="fas fa-check-circle"></i>
+                        Count current tasks.</li>
+                    <li> <i class="fas fa-check-circle"></i>
+                        Delete unwanted tasks.</li>
+                    <li> <i class="fas fa-check-circle"></i>
+                        Check done tasks and Count them.</li>
+                    <li> <i class="fas fa-check-circle"></i>
+                        Reset done tasks countr &amp; restore it again.</li>
+                    <li> <i class="fas fa-check-circle"></i>
+                        Get a backup of your tasks as json file.</li>
+                    <li> <i class="fas fa-check-circle"></i>
+                        One click to delete all tasks.</li>
+                    <li> <i class="fas fa-check-circle"></i>
+                        Restore tasks in case delete all is clicked by mistake.</li>
+                    <li> <i class="fas fa-check-circle"></i>
+                        Factory reset to return the app to zero.</li>
+                    <li> <i class="fas fa-check-circle"></i>
+                        Restore it to end point before click factory reset.</li>
+                </ul>
+            </div>
+            <hr>
+            <div class="contact">
+                <p>Your opinion matters in order to give you the perfect experience.
+                    <br>
+                    You Can Contact us:</p>
+                <div class="contactWays">
+                    <div>
+                        <ul class="contactIcons">
+                            <li><i class="fas fa-phone-square-alt"></i></li>
+                            <li><i class="fas fa-envelope"></i></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="contactDetails">
+                            <li>+20 109-932-6412</li>
+                            <li>Nadersayed001@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="text-danger  text-center designedBy">Designed By: </p>
+            <p class="signing">&copy; Nader Sayed</p>
+            <p class="text-center Version">Version No: V1.0</p>
+        </div>
+    </div>
+
+    <div class="modal fade editModal" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" id="modalTotalBody">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editModalLabel">Modify Task</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="editingModalBody">
+                    <form id="bodyForm">
+                        <div>
+                            <input type="hidden" id="id">
+                        </div>
+                        <div class="mb-3">
+                            <label for="assinedTo" class="col-form-label">Assigned To:</label>
+                            <input type="text" class="form-control" id="assinedTo">
+                        </div>
+                        <div class="mb-3">
+                            <label for="title" class="col-form-label">Task:</label>
+                            <input class="form-control" id="title">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary applyChanges" id="applyEdits">Apply Edits</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============ Vendors ============  -->
+    <script src="assets/vendor/fontawesome/all.js"></script>
+    <script src="assets/vendor/bootstrap/bootstrap.bundle.js"></script>
+    <script src="assets/js/jquery-3.6.1.min.js"></script>
+    <!-- ============ Main JS ============  -->
+    <!-- <script src="assets/js/try.js"></script> -->
+    <script src="assets/js/app.js" type="module"></script>
+</body>
+
+</html>

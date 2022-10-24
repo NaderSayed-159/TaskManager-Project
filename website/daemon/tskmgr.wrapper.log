@@ -1,0 +1,604 @@
+2022-06-09 15:37:56 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-09 15:37:56 - Started 8368
+2022-06-12 00:20:59 - Stopping tskmgr.exe
+2022-06-12 00:20:59 - ProcessKill 8368
+2022-06-12 00:20:59 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-06-12 10:14:37 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-12 10:14:38 - Started 6284
+2022-06-13 23:53:25 - Stopping tskmgr.exe
+2022-06-13 23:53:25 - ProcessKill 6284
+2022-06-13 23:53:25 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-06-14 10:02:49 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-14 10:02:49 - Started 6252
+2022-06-15 11:20:49 - Stopping tskmgr.exe
+2022-06-15 11:20:49 - ProcessKill 6252
+2022-06-15 11:20:49 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-06-15 11:21:36 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-15 11:21:37 - Started 5872
+2022-06-17 15:06:17 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-17 15:06:17 - Started 6408
+2022-06-17 15:38:35 - Stopping tskmgr.exe
+2022-06-17 15:38:35 - ProcessKill 6408
+2022-06-17 15:38:36 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-06-17 15:39:20 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-17 15:39:20 - Started 6636
+2022-06-17 16:57:33 - Stopping tskmgr.exe
+2022-06-17 16:57:33 - ProcessKill 6636
+2022-06-17 16:57:33 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-06-17 16:59:02 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-17 16:59:03 - Started 3888
+2022-06-21 14:15:18 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-21 14:15:18 - Started 6276
+2022-06-22 09:19:27 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-22 09:19:27 - Started 7108
+2022-06-22 14:29:32 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-22 14:29:32 - Started 6284
+2022-06-22 17:20:40 - Stopping tskmgr.exe
+2022-06-22 17:20:40 - ProcessKill 6284
+2022-06-22 17:20:40 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-06-22 17:21:22 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-22 17:21:22 - Started 8404
+2022-06-28 21:50:35 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-28 21:50:35 - Started 5860
+2022-07-03 15:23:36 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-07-03 15:23:37 - Started 6412
+2022-07-04 12:19:24 - Stopping tskmgr.exe
+2022-07-04 12:19:24 - ProcessKill 6412
+2022-07-04 12:19:24 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-07-04 12:20:13 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-07-04 12:20:13 - Started 6812
+2022-07-05 17:18:16 - Stopping tskmgr.exe
+2022-07-05 17:18:16 - ProcessKill 6812
+2022-07-05 17:18:16 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-07-05 17:19:02 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-07-05 17:19:02 - Started 7308
+2022-07-06 12:47:52 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-07-06 12:47:52 - Started 6876
+2022-07-06 14:53:10 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-07-06 14:53:10 - Started 6904
+2022-07-06 17:29:41 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-07-06 17:29:41 - Started 6360
+2022-07-09 07:45:03 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-07-09 07:45:04 - Started 6876
+2022-07-09 07:46:47 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-07-09 07:46:47 - Started 7116
+2022-07-14 13:29:39 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-07-14 13:29:39 - Started 1704
+2022-07-18 00:47:29 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-07-18 00:47:29 - Started 6828
+2022-07-18 10:24:11 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-07-18 10:24:11 - Started 7220
+2022-07-19 13:23:54 - Stopping tskmgr.exe
+2022-07-19 13:23:54 - ProcessKill 7220
+2022-07-19 13:23:55 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-07-19 13:24:41 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-07-19 13:24:41 - Started 7228
+2022-07-19 14:01:08 - Stopping tskmgr.exe
+2022-07-19 14:01:08 - ProcessKill 7228
+2022-07-19 14:01:08 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-07-19 14:01:54 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-07-19 14:01:55 - Started 8044
+2022-07-23 15:00:16 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-07-23 15:00:16 - Started 7204
+2022-07-25 10:37:38 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-07-25 10:37:38 - Started 7172
+2022-07-27 12:01:37 - Stopping tskmgr.exe
+2022-07-27 12:01:37 - ProcessKill 7172
+2022-07-27 12:01:37 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-07-27 12:03:55 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-07-27 12:03:55 - Started 7884
+2022-07-31 23:05:43 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-07-31 23:05:43 - Started 7712
+2022-07-31 23:11:50 - Stopping tskmgr.exe
+2022-07-31 23:11:50 - ProcessKill 7712
+2022-07-31 23:11:51 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-08-01 10:27:49 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-01 10:27:49 - Started 7844
+2022-08-03 11:01:24 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-03 11:01:25 - Started 7804
+2022-08-04 11:09:41 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-04 11:09:42 - Started 7516
+2022-08-04 14:44:21 - Stopping tskmgr.exe
+2022-08-04 14:44:21 - ProcessKill 7516
+2022-08-04 14:44:21 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-08-04 14:46:59 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-04 14:47:00 - Started 7660
+2022-08-08 17:09:51 - Stopping tskmgr.exe
+2022-08-08 17:09:51 - ProcessKill 7660
+2022-08-08 17:09:51 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-08-09 10:21:28 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-09 10:21:29 - Started 8004
+2022-08-09 11:13:16 - Stopping tskmgr.exe
+2022-08-09 11:13:16 - ProcessKill 8004
+2022-08-09 11:13:16 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-08-09 11:14:08 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-09 11:14:08 - Started 7348
+2022-08-09 13:01:55 - Stopping tskmgr.exe
+2022-08-09 13:01:55 - ProcessKill 7348
+2022-08-09 13:01:55 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-08-09 13:02:44 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-09 13:02:45 - Started 8148
+2022-08-10 17:59:27 - Stopping tskmgr.exe
+2022-08-10 17:59:27 - ProcessKill 8148
+2022-08-10 17:59:27 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-08-10 18:00:29 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-10 18:00:29 - Started 7652
+2022-08-10 18:02:08 - Stopping tskmgr.exe
+2022-08-10 18:02:08 - ProcessKill 7652
+2022-08-10 18:02:08 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-08-11 09:43:19 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-11 09:43:19 - Started 7932
+2022-08-11 09:52:41 - Stopping tskmgr.exe
+2022-08-11 09:52:41 - ProcessKill 7932
+2022-08-11 09:52:41 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-08-11 09:53:31 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-11 09:53:31 - Started 7940
+2022-08-11 13:22:55 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-11 13:22:55 - Started 7372
+2022-08-11 13:50:28 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-11 13:50:29 - Started 7308
+2022-08-11 17:33:22 - Stopping tskmgr.exe
+2022-08-11 17:33:22 - ProcessKill 7308
+2022-08-11 17:33:22 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-08-12 16:53:40 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-12 16:53:41 - Started 7964
+2022-08-14 10:20:38 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-14 10:20:38 - Started 7544
+2022-08-21 09:33:19 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-21 09:33:19 - Started 7740
+2022-08-22 10:18:27 - Stopping tskmgr.exe
+2022-08-22 10:18:27 - ProcessKill 7740
+2022-08-22 10:18:27 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-08-22 10:19:27 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-22 10:19:27 - Started 8080
+2022-08-24 09:57:13 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-24 09:57:13 - Started 7440
+2022-08-25 19:13:12 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-25 19:13:12 - Started 7420
+2022-08-27 20:30:18 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-27 20:30:18 - Started 7404
+2022-08-27 20:40:44 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-27 20:40:44 - Started 7504
+2022-08-29 10:39:33 - Stopping tskmgr.exe
+2022-08-29 10:39:33 - ProcessKill 7504
+2022-08-29 10:39:33 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-08-29 10:40:17 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-29 10:40:17 - Started 8072
+2022-08-29 13:13:43 - Stopping tskmgr.exe
+2022-08-29 13:13:43 - ProcessKill 8072
+2022-08-29 13:13:43 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-08-29 13:14:41 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-29 13:14:41 - Started 7684
+2022-08-29 14:26:25 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-29 14:26:26 - Started 6348
+2022-08-29 16:31:22 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-29 16:31:22 - Started 7048
+2022-08-29 16:45:48 - Stopping tskmgr.exe
+2022-08-29 16:45:48 - ProcessKill 7048
+2022-08-29 16:45:48 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-08-29 16:46:40 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-29 16:46:41 - Started 7872
+2022-08-31 15:33:01 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-08-31 15:33:01 - Started 7400
+2022-09-08 17:12:42 - Stopping tskmgr.exe
+2022-09-08 17:12:42 - ProcessKill 7400
+2022-09-08 17:12:42 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-09-12 08:50:59 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-09-12 08:50:59 - Started 8660
+2022-09-12 17:14:47 - Stopping tskmgr.exe
+2022-09-12 17:14:47 - ProcessKill 8660
+2022-09-12 17:14:48 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-09-13 09:31:19 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-09-13 09:31:19 - Started 8228
+2022-09-14 18:02:10 - Stopping tskmgr.exe
+2022-09-14 18:02:10 - ProcessKill 8228
+2022-09-14 18:02:11 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-09-14 18:03:08 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-09-14 18:03:09 - Started 7800
+2022-09-14 18:03:55 - Stopping tskmgr.exe
+2022-09-14 18:03:55 - ProcessKill 7800
+2022-09-14 18:03:55 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-09-15 10:28:54 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-09-15 10:28:55 - Started 7888
+2022-09-18 10:32:46 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-09-18 10:32:46 - Started 7576
+2022-09-19 15:29:44 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-09-19 15:29:44 - Started 7744
+2022-09-26 13:35:11 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-09-26 13:35:11 - Started 6944
+2022-09-28 10:12:36 - Stopping tskmgr.exe
+2022-09-28 10:12:36 - ProcessKill 6944
+2022-09-28 10:12:37 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-09-28 10:13:33 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-09-28 10:13:33 - Started 8436
+2022-09-28 17:16:21 - Stopping tskmgr.exe
+2022-09-28 17:16:21 - ProcessKill 8436
+2022-09-28 17:16:21 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-09-29 14:09:29 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-09-29 14:09:30 - Started 8004
+2022-10-03 13:14:40 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-10-03 13:14:40 - Started 8160
+2022-10-03 14:48:58 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-10-03 14:48:58 - Started 8128
+2022-10-03 16:00:03 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-10-03 16:00:03 - Started 7380
+2022-10-12 13:20:48 - Stopping tskmgr.exe
+2022-10-12 13:20:48 - ProcessKill 7380
+2022-10-12 13:20:48 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-10-12 13:21:45 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-10-12 13:21:45 - Started 8760
+2022-10-12 16:09:54 - Stopping tskmgr.exe
+2022-10-12 16:09:54 - ProcessKill 8760
+2022-10-12 16:09:54 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-10-12 16:10:43 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-10-12 16:10:44 - Started 7428
+2022-10-12 16:12:18 - Stopping tskmgr.exe
+2022-10-12 16:12:18 - ProcessKill 7428
+2022-10-12 16:12:18 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-10-13 10:31:06 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-10-13 10:31:06 - Started 8120
+2022-10-24 10:17:02 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\hp\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "E:\MINE\Projects\task manger oop\website\server.js" --log "tskMgr wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-10-24 10:17:03 - Started 5744
