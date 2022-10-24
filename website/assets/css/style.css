@@ -76,7 +76,7 @@ body {
 .newTaskContainer::before {
     counter-increment: task;
     content: "( "counter(task) " )";
-    width: 70px;
+    width: 50px;
     margin-right: 10px;
 }
 
@@ -159,6 +159,7 @@ label {
 #others {
     width: 35%;
 }
+
 
 .backupSubmit {
     border: none;
@@ -365,16 +366,30 @@ hr {
     z-index: 9999;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width:991px) {
+
     .actions {
+        display: flex;
         flex-direction: column;
     }
 
-    .actions>div {
-        width: 70% !important;
-        margin: 0;
-        text-align: center;
+    #others,
+    #doneCounter,
+    #counter {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+
+    .infoBtn {
+        top: 240px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
 
     .form {
         display: flex;
@@ -402,5 +417,9 @@ hr {
 
     .newTaskContainer::before {
         font-size: 14px;
+    }
+
+    .infoBtn {
+        top: 60px;
     }
 }

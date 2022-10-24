@@ -12,6 +12,8 @@ class UI {
 
     static addTasksToUi() {
         const storedTasks = Storage.getTasks();
+        document.querySelector('#tasks-List').innerHTML = '';
+
         storedTasks.forEach(task => {
             UI.displayTaskinList(task)
         })
@@ -28,11 +30,11 @@ class UI {
         taskContainer.innerHTML = `
         <div class="newTaskField">
             <p class="newTaskValue">${task.title}</p>
-            <p class="mb-0">Assigned To: <span class="assignedTo">${task.assinedTo}</span></p>
+            <p class="mb-0 d-flex align-items-center flex-column">Assigned To: <span class="assignedTo">${task.assinedTo}</span></p>
             <div>
                 <button class="editBtn btn btn-warning" data-uuid="${task.id}" data-bs-toggle="modal" data-bs-target="#editModal">Edit</button>
                 <button class="deleteBtn btn btn-danger" data-uuid="${task.id}">Delete</button>
-                <button class="doneBtn btn btn-info" data-uuid="${task.id}">Done</button>
+                <button class="doneBtn btn btn-success" data-uuid="${task.id}">Done</button>
             </div>    
         </div>
         `;
@@ -127,7 +129,6 @@ class UI {
     }
 
 }
-
 //Control Storage
 class Storage {
     static getTasks() {
@@ -163,7 +164,7 @@ class Storage {
 
     }
 
-    static async editTask(id, el, updatedValue) {
+    static editTask(id, el, updatedValue) {
         const tasks = Storage.getTasks();
         let tasksAfterUpdate = []
         if (el.classList.contains('applyChanges')) {
@@ -176,8 +177,6 @@ class Storage {
                 }
             })
             localStorage.setItem('tasks', JSON.stringify(tasksAfterUpdate))
-            document.querySelector('#tasks-List').innerHTML = ''
-            UI.addTasksToUi();
         }
     }
 
@@ -272,6 +271,13 @@ class Storage {
 
     }
 
+    static async restoreBackup() {
+        let backupTasks = await (fetch('../../BackUp.json'))
+        let returnDdata = await backupTasks.json()
+        let allBackuped = JSON.parse(JSON.parse(returnDdata.data)['tasks'])
+        localStorage.setItem('tasks', JSON.stringify(allBackuped))
+        UI.addTasksToUi()
+    }
 }
 //Server Methods
 class Server {
@@ -294,7 +300,6 @@ class Server {
         }
     }
 }
-
 class TasksOp {
 
     static tasksOperations(task) {
@@ -360,11 +365,12 @@ document.querySelector('#tasks-List').addEventListener('click', (e) => {
         let updatedTask = {}
         editModalBody.forEach(el => updatedTask[el.id] = el.value);
 
-        Object.entries(updatedTask).forEach(async ([key, value]) => {
+        Object.entries(updatedTask).forEach(([key, value]) => {
             if (value == '') {
                 UI.showAlert(`${key.charAt(0).toUpperCase()+key.slice(1)} Can't be Empty`, 'danger', '#editingModalBody', '#bodyForm')
             } else {
-                await Storage.editTask(updatedTask.id, applyChangesBtn, updatedTask);
+                Storage.editTask(updatedTask.id, applyChangesBtn, updatedTask);
+                UI.addTasksToUi();
                 $('.editModal').modal('hide');
             }
         })
@@ -414,7 +420,7 @@ document.querySelector('#resetDoneCounter').addEventListener('click', () => {
 })
 
 //event do backup 
-document.querySelector('#backUpForm').addEventListener('submit', (e) => {
+document.querySelector('#backUpForm').addEventListener('submit', async (e) => {
     //pervent default
     e.preventDefault();
     let storedTasks = localStorage.getItem('tasks');
@@ -423,11 +429,7 @@ document.querySelector('#backUpForm').addEventListener('submit', (e) => {
     } else {
         let backUpField = document.querySelector('#backUp');
         backUpField.value = JSON.stringify(localStorage);
-        console.log(backUpField.value);
-
-        Server.postData('/storeTasks', {
-            data: backUpField.value
-        })
+        Server.postData('/storeTasks', {data: backUpField.value})
 
         UI.showAlert('BackUP Done', 'success')
     }
@@ -481,4 +483,10 @@ document.querySelector('#infoBtn').addEventListener('click', () => {
 //event close about btn
 document.querySelector('#modalClose').addEventListener('click', () => {
     UI.toggaleAbout();
+})
+
+// restore backup
+
+document.querySelector('#backupRestore').addEventListener('click', () => {
+    Storage.restoreBackup()
 })
