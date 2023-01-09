@@ -76,7 +76,7 @@ body {
 .newTaskContainer::before {
     counter-increment: task;
     content: "( "counter(task) " )";
-    width: 50px;
+    width: 65px;
     margin-right: 10px;
 }
 

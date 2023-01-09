@@ -12,11 +12,12 @@ class UI {
 
     static addTasksToUi() {
         const storedTasks = Storage.getTasks();
-        document.querySelector('#tasks-List').innerHTML = '';
-
+        const tasksList = document.querySelector('#tasks-List');
+        tasksList.innerHTML = '';
         storedTasks.forEach(task => {
             UI.displayTaskinList(task)
         })
+
         UI.taskCounter();
         UI.showDone();
         document.querySelector('#title').focus();
@@ -133,7 +134,8 @@ class UI {
 class Storage {
     static getTasks() {
         let tasks;
-        if (localStorage.getItem('tasks') === null) {
+        console.log(localStorage.getItem('tasks'));
+        if (localStorage.getItem('tasks') === null || localStorage.getItem('tasks') === '') {
             tasks = []
         } else {
             tasks = JSON.parse(localStorage.getItem('tasks'));
@@ -367,7 +369,7 @@ document.querySelector('#tasks-List').addEventListener('click', (e) => {
 
         Object.entries(updatedTask).forEach(([key, value]) => {
             if (value == '') {
-                UI.showAlert(`${key.charAt(0).toUpperCase()+key.slice(1)} Can't be Empty`, 'danger', '#editingModalBody', '#bodyForm')
+                UI.showAlert(`${key.charAt(0).toUpperCase() + key.slice(1)} Can't be Empty`, 'danger', '#editingModalBody', '#bodyForm')
             } else {
                 Storage.editTask(updatedTask.id, applyChangesBtn, updatedTask);
                 UI.addTasksToUi();
@@ -429,7 +431,7 @@ document.querySelector('#backUpForm').addEventListener('submit', async (e) => {
     } else {
         let backUpField = document.querySelector('#backUp');
         backUpField.value = JSON.stringify(localStorage);
-        Server.postData('/storeTasks', {data: backUpField.value})
+        Server.postData('/storeTasks', { data: backUpField.value })
 
         UI.showAlert('BackUP Done', 'success')
     }
