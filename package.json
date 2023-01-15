@@ -4,7 +4,7 @@
   "description": "Task manger with Native OOP JavaScript",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run website/server.js"
   },
   "repository": {
     "type": "git",
